@@ -1,0 +1,17 @@
+.nav-text { 
+    text-decoration: None; 
+    color: black; 
+}
+
+.nav-button {
+    margin: 0 3rem;
+    border: 0.2rem solid black; 
+    border-radius: 2rem; 
+    padding: 0.2rem 1.5rem 0.2rem 1.5rem;
+    transition: 0.3s;
+}
+
+.nav-button:hover{
+    background-color: black;
+    color: whitesmoke;
+}

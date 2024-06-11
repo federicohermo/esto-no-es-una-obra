@@ -1,0 +1,89 @@
+@import url(./Structure.css);
+@import url(./index.css);
+@import url(./Variables.css);
+
+/* html {
+
+  overflow: -moz-scrollbars-vertical;
+  overflow-y: scroll;
+} */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* background-image: linear-gradient(white, pink); */
+  background-color: var(--fuxia);
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: var(--allura);
+  letter-spacing: 2px;
+  position: fixed;
+  text-transform: uppercase;
+}
+
+.App-body {
+  background-color: var(--fuxia);
+  /* background-image: linear-gradient(pink 50%, var(--fuxia)); */
+  /* linear-gradient(whitesmoke 80%, rgb(84,0,255)); */
+  min-height: 86vh;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: black;
+  font-family: var(--allura);
+  letter-spacing: 2px;
+}
+
+.App-footer {
+  background-color: black;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: white;
+  font-family: var(--allura);
+  letter-spacing: 2px;
+  width: 100%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.centralized {
+  display: flex;
+  flex-direction: row; 
+  align-items: center
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,20 @@
+h1{
+    /* color: rgba(0, 0, 0, 1); */
+    text-transform: uppercase;
+}
+
+.bubble{
+    filter: blur(20px);
+    height: 10rem;
+    width: 10rem;
+    border-radius: 80vw;
+    position: absolute;
+    /* -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, 
+    from(rgba(0,0,0,1)), to(rgba(0,0,0,0))); */
+}
+@media screen and (max-height: 1050px){
+    .bubble {
+      height: 8rem;
+      width: 8rem;
+    }
+  }

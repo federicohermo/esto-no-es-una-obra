@@ -1,0 +1,51 @@
+.App {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    margin-top: 2.5vh;
+    display: block;
+  }
+  
+  input, textarea {
+    padding: 1rem;
+    margin: 5px 0;
+    width: 300px;
+    border-radius: 10rem;
+    background-color: var(--fuxia_light);
+    border-color: black;
+  }
+  
+  input:focus, textarea:focus{
+    outline: none !important;
+    border-color: black;
+    box-shadow: 0 0 5px black;
+  }
+
+  button {
+    padding: 10px 20px;
+    background-color: var(--fuxia);
+    font-size: calc(10px + 2vmin);
+    margin-top: 5vh;
+    color: black;
+    border: 2px black solid;
+    border-radius: 10rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: black;
+    color: whitesmoke;
+  }
+  
+  p {
+    color: white;
+    font-size: 12px;
+  }

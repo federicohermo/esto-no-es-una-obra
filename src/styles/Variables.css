@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display");
+:root {
+    --allura: Helvetica,Helvetica Neue,Arial,Lucida Grande,sans-serif;
+    
+    /* Montserrat, sans-serif; */
+    /* "DM Serif Display", sans-serif;  */
+    /* "Allura Regular"; */
+    --fuxia: rgb(255, 35, 109);
+    --fuxia_light: rgb(255, 101, 152);
+    --pure_blue: rgb(84,0,255);
+    --pure_blue_dark: rgb(46, 0, 138);
+}
