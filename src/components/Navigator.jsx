@@ -1,9 +1,9 @@
 /* eslint-disable */
-import React, { useContext } from "react"
+import React from "react"
 import "../styles/App.css"
 import "../styles/Home.css"
 import "../styles/Header.css"
-import {NavLink, useLocation} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 
 export default function Nav(props){

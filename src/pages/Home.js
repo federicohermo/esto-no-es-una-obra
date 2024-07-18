@@ -1,6 +1,6 @@
-import React, { useState, useEffect, useContext } from 'react';
+import React from 'react';
 import "../styles/Home.css"
-import logo from "../pictures/logo_alpha.png"
+import logo from "../pictures/logo_alpha.svg"
 
 export default function Home(props){
     let bubbles = [0,1,2]
@@ -21,7 +21,7 @@ export default function Home(props){
         <div className='flex-row jBtwn' style={{}}>
             {/* {renderBubble([0,1,2,3,4,5,6,7])} */}
             <div className='flex-column aCenter' style={{zIndex: '1'}}>
-                {/* <img src={logo} alt='logo' style={{width: "20rem"}}/> */}
+                <img src={logo} alt='logo' style={{width: "15rem"}}/>
                 <h1 >Traicionando a las imágenes</h1>
             </div>
         </div>

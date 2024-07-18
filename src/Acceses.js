@@ -1,5 +1,5 @@
-import React, { useState, useEffect, createContext } from "react";
-import {Route, Routes, Navigate} from 'react-router-dom';
+import React from "react";
+import {Route, Routes} from 'react-router-dom';
 import Home from "./pages/Home.js"
 import Contact from "./pages/Contact.js"
 import Content from "./pages/Content.js"

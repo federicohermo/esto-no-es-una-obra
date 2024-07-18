@@ -1,7 +1,6 @@
 /* eslint-disable */
 import React from "react"
 import "../styles/App.css"
-import {NavLink} from 'react-router-dom';
 import spotify from "../icons/spotify.svg"
 
 
